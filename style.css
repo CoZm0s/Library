@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .box {
+    display: grid;
+    font-size: 1.5rem;
+    gap: 1rem;
+    padding: 1em;
+    width: 15rem;
+    border-radius: 16px;
+    background-color: #222222;
+    color: white;
+  }
+  body {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: rgb(49,10,49);
+    background: linear-gradient(90deg, rgba(49,10,49,1) 0%, rgba(205,159,204,1) 42%);
+    border-radius: 3em;
+    gap: 2rem;
+  }
+  .header {
+    opacity: 70%;
+    background-color: #cd9fcc;
+    padding: 0.8rem;
+    color: 310a31;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    box-shadow: #f7f4ea 2px 2px 2px;
+  }
+  
+  .add {
+    opacity: 70%;
+    background-color: #cd9fcc;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    color: #310a31;
+    border-radius: 100px;
+    box-shadow: #f7f4ea 2px 2px 2px;
+  }
+  .icon-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    gap: 20px;
+  }
+  .icon {
+    width: 2rem;
+  }
+  .icon1 {
+    filter: invert(1);
+  }
+  .icon:hover {
+    cursor: pointer;
+  }
+  
+  dialog[open] {
+    display: flex;
+    padding: 5rem;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #cd9fcc;
+  }
+  
+  dialog[open] form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1.7rem;
+  }
+  form button {
+    background-color: #cd9fcc;
+    padding: 0.7rem;
+    font-size: 1rem;
+    color: #310a31;
+    border-radius: 16px;
+  }
+  form input {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  .repair {
+    overflow: hidden;
+  }

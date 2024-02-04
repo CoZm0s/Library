@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="/icons8-book-16.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="library.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>My ibrary</h1>
+    </div>
+    <div class="interact">
+      <button class="add"><i>+</i></button>
+    </div>
+    <div class="main"></div>
+    <dialog id="newBook">
+      <form action="">
+        <div>
+          <div>
+            <label for="Book">Book's Title</label>
+          </div>
+          <div>
+            <input type="text" id="Book" />
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <label for="Author">Author</label>
+          </div>
+          <div>
+            <input type="text" id="Author" />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="Pages">No. of pages</label>
+          </div>
+          <div>
+            <input type="number" id="Pages" />
+          </div>
+        </div>
+
+        <div>
+          <button id="confirm" type="submit">Submit</button>
+          <button id="cancel">Cancel</button>
+        </div>
+      </form>
+    </dialog>
+  </body>
+</html>
